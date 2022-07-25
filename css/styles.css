@@ -312,13 +312,11 @@ p {
   background-color: var(--accent-txt-cl);
   fill: var(--wight-txt-cl);
 }
-
-.sociale-link:hover,
-.sociale-link:focus,
-.sociale-link:active
-.svg-links
- {
-  fill: var(--wight-txt-cl);
+.sociale-link:hover .svg-links,
+.sociale-link:focus .svg-links,
+.sociale-link:active .svg-links
+{
+  fill: var(--wight-txt-cl)
 }
 .footer {
   background: #2f303a;
