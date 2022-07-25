@@ -17,6 +17,8 @@ html {
   --dark-bg-cl: #2f303a;
   --wight-bg-cl: #f5f4fa;
   --border-heder-c1: #ececec;
+   --color-svg-links:#AFB1B8;
+  --color-svg-bg-footer: rgba(255, 255, 255, 0.1)
 }
 body {
   font-family: var(--main-font);
@@ -275,11 +277,48 @@ p {
   color: #212121;
 }
 .team-text {
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.socials{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.sociale-link-list {}
+
+.sociale-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--wight-txt-cl);
+  border-radius: 50%;
+}
+
+.svg-links {
+  fill: var(--color-svg-links);
+}
+
+.sociale-link:hover,
+.sociale-link:focus,
+.sociale-link:active {
+  background-color: var(--accent-txt-cl);
+  fill: var(--wight-txt-cl);
+}
+
+.sociale-link:hover,
+.sociale-link:focus,
+.sociale-link:active
+.svg-links
+ {
+  fill: var(--wight-txt-cl);
 }
 .footer {
   background: #2f303a;
